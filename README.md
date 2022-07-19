@@ -5,7 +5,7 @@ Implementation Overview and general approach:
 Objectives (Goals):
 Efficiency in memory (It was important to us allocate memory dynmically and make its size fit exact as required for each specific memory image output of the program.
 
-Seperation of concern: we tried to split the program to indepent components that will be responsible for well defined tasks and that the sharing of data between files will be through some kind of encapsolution method such as state getters/setters and scoping global variable ##### to be static so that they will be scoped to the single file that they belongs to.
+Seperation of concern: we tried to split the program to indepent components that will be responsible for well defined tasks and that the sharing of data between files will be through some kind of encapsolution method such as state getters/setters and scoping global variable to be static so that they will be scoped to the single file that they belongs to.
 
 Absctration of data structures and variable use to fit our needs by definning different typedef structs types enums and constants.
 
