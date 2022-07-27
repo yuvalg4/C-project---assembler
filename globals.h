@@ -16,14 +16,6 @@
 #define WORD_SIZE 20
 #define INT_BITS_SIZE 16
 
-/*
-We know that you said we need to implement the structs in the .c file but when we tried to implement it that way
-our entire program crashed and nothing worked. After a few days of trying to debug it we decided to go back
-to implementing it that way. We are sorry and hope you'll understand.
-Thank you roy <3
-*/
-
-
 /* struct that represents the labels in the program. saves value,base,offset,symbol and their attributes. */
 typedef struct label{
     char symbol[MAX_LABEL_LENGTH];
