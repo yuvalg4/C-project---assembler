@@ -22,7 +22,7 @@ void pre_assembler(FILE* assembly, char file_name[]){
 	char first_word[MAX_MACRO_NAME_LENGTH];              
 	int line_ind;       
 	macro* macro_array=NULL; 
-	int extension_num=1;   /*when macro array aut of space we will realloc, this is counter for how many times*/       
+	int extension_num=1;   /*when macro array out of space we will realloc, this is counter for how many times*/       
 	int macro_array_last=0; 
 	for_assembler_file = open_and_name_new_file(file_name, ".am");
 	macro_array = malloc(DYNAMIC_ARRAY_INITIAL_SIZE*sizeof(macro));
